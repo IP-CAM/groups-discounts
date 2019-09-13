@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']    = '<span style="color:#1475C4;">TRD</span>&nbsp;Базовый модуль на примере "Скидки для групп покупателей"';
+$_['heading_title']    = '<span style="color:#c85514;"><b>TRD</b></span><span>&nbsp;Базовый модуль на примере Скидки для групп покупателей</span>';
 
 // Text
 $_['text_success']     = 'Настройки модуля обновлены!';

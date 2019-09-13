@@ -11,7 +11,7 @@ class ControllerExtensionModuleBasicModule extends Controller {
     public function index() {
         $this->load->language('extension/module/basic_module');
 
-        $this->document->setTitle($this->language->get('heading_title'));
+        $this->document->setTitle(strip_tags($this->language->get('heading_title')));
 
         $this->load->model('setting/setting');
 
